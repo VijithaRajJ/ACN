@@ -1,0 +1,140 @@
+1. man
+The man stands for manual. The man command displays the user manual of any command that we run on the terminal
+Eg: man ls
+
+2. ls
+The ls command is used to view the contents of a directory.
+
+3. echo
+used to display line of text/string that are passed as an argument
+Eg: echo "Hello"
+
+4. read
+used to read the contents of a line into a variable
+Eg: read var1 var2
+
+5. more
+displays the file content.'more' command displays output one screenful at a time. Eg: more -s demo.txt
+
+
+
+6. less
+displays the file content same as 'more'. it include some more features, It automatically adjusts with the width and height of the terminal window, while 'more' command cuts the content as the width of the terminal window get shorter.
+Eg: less demo.txt
+
+7. cat
+cat (short for concatenate) It is used to list the contents of a file on the standard output stdout.
+Eg: cat demo.txt
+
+
+
+8. cd
+change directory command.
+Eg: cd Documents
+
+9. mkdir
+to make a new directory
+Eg: mkdir Music
+
+10. pwd
+find out the path of the current working directory (folder) you’re in
+Eg: pwd
+
+11. find
+Find searches for files and directories.
+Eg: find demo.txt
+
+12. mv
+move files
+Eg: mv file.txt /home/username/Documents. 
+
+13. cp
+copy files from the current directory to a different directory
+Eg: cp file.txt /home/username/Documents. 
+
+14. rm
+used to delete directories and the contents within them.
+Eg: rm Music
+
+15. tar
+command helps create, extract, and list archive contents.
+Eg: tar cf files.tar files
+
+16. wc
+helps in counting the lines, words, and characters in a file
+Eg: wc demo.txt
+
+17. cut
+used to cut a specific sections by byte position, character, and field and writes them to standard output
+Eg: cut -b 4- demo.txt
+
+
+18. paste
+paste command is that it joins the files horizontally by separating the lines from each file with a tab as delimiter to get the required output.
+Eg: paste -s  file_name.txt
+
+
+18. wc
+helps in counting the lines, words, and characters in a file
+Eg: wc -l demo.txt -> count the lines
+wc -w demo.txt  -> count the words
+wc -c demo.txt -> count the words
+
+17. cut
+used to cut a specific sections by byte position, character, and field and writes them to standard output
+Eg: cut -b 4- demo.txt 
+
+
+18. paste
+paste command is that it joins the files horizontally by separating the lines from each file with a tab as delimiter to get the required output.
+Eg: paste demo.txt file.txt
+
+
+19. tar
+used for compress and uncompress folder/files
+compress: Eg: tar -cf test.tar test -> f stand for file name, c for creating (tar extention of folder)
+uncompress: Eg: tar -xf test.tar -> x stand for extract
+
+20. head
+used to view the first lines of any text file
+Eg: head -n 3 file.txt
+
+21. tail
+display the last ten lines of a text file.
+Eg: tail -n 3 file.txt
+
+22. grep
+(global regular expression print) it is used to search a pattern/word/sentence in a file file
+Eg: grep "is" file.txt
+
+23. chmod
+access permission of file to executable mode
+Eg: chmod +x file.sh
+
+24. chown
+is used to change a file's ownership, directory, or symbolic link for a user or group.
+`Eg: chown renjith prejin -> here the existing ownership prejin handover to renjith'
+
+25. expr
+used to evaluate a given expression
+Eg: expr 6 + 2 -> and return o/p as 8.
+
+26. usermod
+add a new user to machine
+Eg: sudo usermod -c test
+
+27. userdel
+delete a user from machine
+Eg: sudo usrdel test
+
+28. df
+get report on the system disk space
+Eg: df
+
+29. top
+similar to task manager in WIN. displays the running process
+Eg: top
+
+30. ps
+display current process with process id (PID)
+Eg: ps
